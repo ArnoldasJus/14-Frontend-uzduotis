@@ -1,0 +1,34 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header {
+    height: 156px;
+    width: 1170px;
+} */
+
+hr {
+    width: 55px;
+    height: 2px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.featured {
+    background-color: #ffe1bd;
+    height: 520px;
+}
+
+.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 20px 30px;
+}
