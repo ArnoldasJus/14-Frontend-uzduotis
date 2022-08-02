@@ -7,7 +7,7 @@ body {
     width: 1170px;
 } */
 
-hr {
+.separator {
     width: 55px;
     height: 2px;
     margin: auto;
@@ -21,14 +21,22 @@ h1 {
     font-size: 24px;
 }
 
-.featured {
+.bg-theme {
     background-color: #ffe1bd;
-    height: 520px;
 }
 
-.btn-black {
+.cta {
     background-color: #000000;
     color: #ffffff;
     font-size: 18px;
     padding: 20px 30px;
+}
+
+.cta-light {
+    border: 1px solid #d8d8d8;
+}
+
+.slider {
+    max-width: 1140px;
+    max-height: 520px;
 }

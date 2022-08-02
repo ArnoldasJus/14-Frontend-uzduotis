@@ -43,37 +43,67 @@
         </nav>
     </header>
 
-    <section class="featured container-xl">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <section class="bg-theme container-xl">
+        <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active text-center" data-bs-interval="8000">
+                <div class="carousel-item active text-center">
                     <h1 class="fw-bold">we are clemo.</h1>
                     <hr class="separator">
                     <p class="fw-light">professionals<br>in the creative industries</p>
-                    <button type="button" class="btn btn-black rounded-pill">get in touch</button>
-                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                    <button type="button" class="btn cta rounded-pill">get in touch</button>
                 </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item">
+                <img src="img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item" data-bs-interval="8000">
-                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-item">
+                <img src="img/christopher-jolly-GqbU78bdJFM-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
     </section>
+
+    <section class="container-xl">
+        <h2 class="text-center">what we do?</h2>
+        <div class="row">
+            <div class="col">
+                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+            </div>
+            <div class="col">
+                <h3>creative<br>kitchen</h3>
+                <hr class="separator">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
+                <button type="button" class="btn cta-light rounded-pill">learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+    </section>
+
+    <section>
+    </section>
+
+    <section>
+    </section>
+
+    <section>
+    </section>
+
+    <footer>
+    </footer>
 </body>
 </html>
