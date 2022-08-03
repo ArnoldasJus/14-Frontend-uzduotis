@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="container-xl">
                 <a class="navbar-brand fw-bold logo" href="#">clemo.</a>
@@ -89,21 +89,53 @@
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col">
+                <h3>creative<br>kitchen</h3>
+                <hr class="separator">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
+                <button type="button" class="btn cta-light rounded-pill">learn more</button>
+            </div>
+            <div class="col">
+                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+            </div>
+            <div class="col">
+                <h3>creative<br>kitchen</h3>
+                <hr class="separator">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
+                <button type="button" class="btn cta-light rounded-pill">learn more</button>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section class="container-xl">
+        <h2 class="text-center">our best work</h2>
     </section>
 
-    <section>
+    <section class="container-fluid bg-theme">
+        <h2 class="text-center">best team</h2>
     </section>
 
-    <section>
+    <section class="container-xl">
+        <h2 class="text-center">clients say's</h2>
     </section>
 
-    <section>
+    <section class="container-fluid bg-black text-white">
+        <h2 class="text-center">get in touch</h2>
     </section>
 
-    <footer>
+    <footer class="text-center">
+        <p class="fw-bold">© 2016 clemo.</p>
+        <p>all rights reserved</p>
     </footer>
 </body>
 </html>
