@@ -50,18 +50,24 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active text-center">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
                     <h1 class="fw-bold">we are clemo.</h1>
                     <hr class="separator">
                     <p class="fw-light">professionals<br>in the creative industries</p>
-                    <button type="button" class="btn cta rounded-pill">get in touch</button>
+                    <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
-                <img src="img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg" class="d-block w-100" alt="...">
+                <h1 class="fw-bold">we are clemo.</h1>
+                    <hr class="separator">
+                    <p class="fw-light">professionals<br>in the creative industries</p>
+                    <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
-                <img src="img/christopher-jolly-GqbU78bdJFM-unsplash.jpg" class="d-block w-100" alt="...">
+                <h1 class="fw-bold">we are clemo.</h1>
+                    <hr class="separator">
+                    <p class="fw-light">professionals<br>in the creative industries</p>
+                    <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
             </div>
             <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -79,7 +85,7 @@
         <h2 class="text-center">what we do?</h2>
         <div class="row">
             <div class="col">
-                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+                <img src="img\what-we-do-1.jpg" alt="">
             </div>
             <div class="col">
                 <h3>creative<br>kitchen</h3>
@@ -99,13 +105,13 @@
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
             <div class="col">
-                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+                <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>
 
         <div class="row">
             <div class="col">
-                <img src="img/pexels-dmitry-zvolskiy-2062426.jpg" alt="">
+                <img src="img\what-we-do-3.jpg" alt="">
             </div>
             <div class="col">
                 <h3>creative<br>kitchen</h3>
@@ -117,12 +123,62 @@
         </div>
     </section>
 
-    <section class="container-xl">
+    <section class="container-xl bestWork-container">
         <h2 class="text-center">our best work</h2>
+
+        <div class="grid-container">
+                <div class="grid-item">
+                    <img src="img/our-best-work-1.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-2.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-3.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-4.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-5.jpg" alt="">
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-6.jpg" alt="">
+                </div>
+            </div>
     </section>
 
     <section class="container-fluid bg-theme">
         <h2 class="text-center">best team</h2>
+        <div class="container-xl">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        
     </section>
 
     <section class="container-xl">
