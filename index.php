@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg">
+   
+    <nav class="navbar navbar-expand-lg">
             <div class="container-xl">
                 <a class="navbar-brand fw-bold logo" href="#">clemo.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,11 +39,10 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <section class="bg-theme container-xl">
-        <div id="featuredSectionCarousel" class="carousel slide">
+    </nav>
+    
+    <section class="container-xl">
+        <div id="featuredSectionCarousel" class="carousel slide container-xl bg-theme featured d-flex align-items-center">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -52,19 +51,19 @@
             <div class="carousel-inner text-center">
                 <div class="carousel-item active">
                     <h1 class="fw-bold">we are clemo.</h1>
-                    <hr class="separator">
+                        <hr class="separator mx-auto">
                     <p class="fw-light">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
                 <h1 class="fw-bold">we are clemo.</h1>
-                    <hr class="separator">
+                    <hr class="separator mx-auto">
                     <p class="fw-light">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
                 <h1 class="fw-bold">we are clemo.</h1>
-                    <hr class="separator">
+                    <hr class="separator mx-auto">
                     <p class="fw-light">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
@@ -73,13 +72,13 @@
     </section>
 
     <section class="container-xl">
-        <h2 class="text-center">what we do?</h2>
-        <div class="row">
+        <h2 class="text-center py-5">what we do?</h2>
+        <div class="row gx-5 mb-5">
             <div class="col">
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
             <div class="col">
-                <h3>creative<br>kitchen</h3>
+                <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -87,9 +86,9 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row gx-5 mb-5">
             <div class="col">
-                <h3>creative<br>kitchen</h3>
+                <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -100,12 +99,12 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row gx-5">
             <div class="col">
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
             <div class="col">
-                <h3>creative<br>kitchen</h3>
+                <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -115,7 +114,7 @@
     </section>
 
     <section class="container-xl bestWork-container text-center">
-        <h2 class="text-center">our best work</h2>
+        <h2 class="text-center py-5">our best work</h2>
 
         <div class="grid-container">
                 <div class="grid-item">
@@ -140,34 +139,33 @@
         <button type="button" class="btn cta rounded-pill my-5 ">learn more</button>
     </section>
 
-    <!-- BUG INdicators -->
     <section class="container-fluid bg-theme text-center">
-        <h2>best team</h2>
+        <h2 class="py-5">best team</h2>
             <div id="bestTeamCarousel" class="carousel slide container-xl">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner">
+                <div class="carousel-inner py-5">
                     <div class="carousel-item active">
                             <div class="row">
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">artist, designer</p>
                                 </div>
                             </div> 
@@ -177,44 +175,44 @@
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">artist, designer</p>
                                 </div>
-                        </div> 
+                            </div>  
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
+                    <div class="row">
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
                                 <div class="col">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
-                                    <hr class="separator">
+                                    <hr class="separator mx-auto">
                                     <p class="fw-bold">artist, designer</p>
                                 </div>
-                        </div> 
+                            </div> 
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#bestTeamCarousel" data-bs-slide="prev">
@@ -229,18 +227,18 @@
     </section>
 
     <section class="container-xl">
-        <h2 class="text-center">clients say's</h2>
+        <h2 class="text-center py-5">clients say's</h2>
         <div id="clientsSaysCarousel" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner py-5">
                 <div class="carousel-item active">
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col">
-                            <h3>frank sims</h3>
+                            <h3 class="fs-1 fw-bold">frank sims</h3>
                             <hr class="separator">
                             <p class="fw-bold">photographer</p>
                         </div>
@@ -248,7 +246,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col-3">
                             <img src="img\frank-sims-1.jpg" alt="">
                         </div>
@@ -264,9 +262,9 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                        <div class="row">
+                        <div class="row mb-5">
                             <div class="col">
-                                <h3>frank sims</h3>
+                                <h3 class="fs-1 fw-bold">frank sims</h3>
                                 <hr class="separator">
                                 <p class="fw-bold">photographer</p>
                             </div>
@@ -274,7 +272,7 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row mb-5">
                             <div class="col-3">
                                 <img src="img\frank-sims-1.jpg" alt="">
                             </div>
@@ -290,9 +288,9 @@
                         </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row">
+                    <div class="row  mb-5">
                         <div class="col">
-                            <h3>frank sims</h3>
+                            <h3 class="fs-1 fw-bold">frank sims</h3>
                             <hr class="separator">
                             <p class="fw-bold">photographer</p>
                         </div>
@@ -300,7 +298,7 @@
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row mb-5">
                         <div class="col-3">
                             <img src="img\frank-sims-1.jpg" alt="">
                         </div>
@@ -319,24 +317,24 @@
         </div>
     </section>
 
-    <section class="container-fluid bg-black">
-        <h2 class="text-center text-white">get in touch</h2>
+    <section class="container-fluid bg-black pb-5" id="getintouch">
+        <h2 class="text-center text-white py-5">get in touch</h2>
         <div class="container-xl">
             <div class="row">
                 <div class="col text-white">
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex gap-3 align-items-start">
                         <img src="img/Pin.png" alt="">
-                        <p>23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</p>
+                        <p class="lh-1">23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</p>
                     </div>
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex gap-3 align-items-start">
                         <img src="img/iPhone.png" alt="">
-                        <p>+1-670-567-5590</p>
+                        <p class="lh-1">+1-670-567-5590</p>
                     </div>
-                    <div class="d-flex align-items-start">
+                    <div class="d-flex gap-3 align-items-start">
                         <img src="img/Envelope.png" alt="">
-                        <p>hello@clemocreative.com</p>
+                        <p class="lh-1">hello@clemocreative.com</p>
                     </div>
-                    <div class="d-flex">
+                    <div class="d-flex gap-3 mt-3">
                         <img src="img/facebook.png" alt="">
                         <img src="img/twitter.png" alt="">
                         <img src="img/google-plus.png" alt="">
@@ -347,29 +345,29 @@
                 <div class="col">
                     <form>
                         <div class="mb-3">
-                            <label for="nameInput" class="form-label">name</label>
-                            <input type="text" class="form-control bg-transparent input-style" id="nameInput" aria-describedby="emailHelp" placeholder="name">
+                            <!-- <label for="nameInput" class="form-label">name</label> -->
+                            <input type="text" class="form-control bg-transparent input-style rounded-0" id="nameInput" aria-describedby="emailHelp" placeholder="name">
                         </div>
                         <div class="mb-3">
-                            <label for="emailInput" class="form-label">email</label>
-                            <input type="email" class="form-control bg-transparent" id="emailInput" aria-describedby="emailHelp" placeholder="email">
+                            <!-- <label for="emailInput" class="form-label">email</label> -->
+                            <input type="email" class="form-control bg-transparent input-style rounded-0" id="emailInput" aria-describedby="emailHelp" placeholder="email">
                         </div>
                         <div class="mb-3">
-                            <label for="messageInput" class="form-label">your message</label>
-                            <input type="password" class="form-control bg-transparent" id="messageInput" placeholder="your message">
+                            <!-- <label for="messageInput" class="form-label">your message</label> -->
+                            <input type="password" class="form-control bg-transparent input-style rounded-0" id="messageInput" placeholder="your message">
                         </div>
-                        <button type="submit" class="btn rounded-pill cta-white">submit</button>
+                        <button type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="text-center">
-        <p class="fw-bold">© 2016 clemo.</p>
-        <p>all rights reserved</p>
+    <footer class="text-center text-black">
+        <p class="fw-bold mt-4 mb-0">© 2016 clemo.</p>
+        <p class="mb-4">all rights reserved</p>
     </footer>
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

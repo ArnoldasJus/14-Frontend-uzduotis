@@ -2,43 +2,101 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* header {
-    height: 156px;
-    width: 1170px;
-} */
-
 .separator {
     width: 55px;
     height: 2px;
-    margin: auto;
+    color: #000000;
+    opacity: 1;
+    /* margin: auto; */
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 h1 {
     font-size: 37px;
 }
 
+.navbar {
+    line-height: 32px;
+    min-height: 156px; /* <-- atrodo nelogiškos proprcijos */
+    /* min-height: 100px; <- rekomenduojamas dydis */
+}
+
 .logo {
+    line-height: 32px;
     font-size: 24px;
+    color: #000000;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: #989898;
+}
+
+.nav-item:last-child .nav-link {
+    padding-right: 0;
 }
 
 .bg-theme {
     background-color: #ffe1bd;
+   
 }
+
+.featured {
+    min-height: 520px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: #000000;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/arrow-left.png);
+    width: 28px;
+    height: 54px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../img/arrow-right.png);
+    width: 28px;
+    height: 54px;
+}
+/* .carousel-indicators [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    background-color: white;
+} */
+
+/* .carousel-indicators button {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    color: #000000;
+} */
 
 .cta {
     background-color: #000000;
     color: #ffffff;
-    font-size: 24px;
-    padding: 20px 30px;
+    font-size: 14px;
+    padding: 16px 30px;
 }
 
 .cta-light {
     border: 1px solid #d8d8d8;
+    font-size: 14px;
+    padding: 16px 30px;
 }
 
 .cta-white {
     background-color: #ffffff;
     color: #000000;
+    font-size: 14px;
+    padding: 16px 30px;
 }
 
 .slider {
