@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -44,11 +43,11 @@
     </header>
 
     <section class="bg-theme container-xl">
-        <div id="carouselExampleIndicators" class="carousel slide">
+        <div id="featuredSectionCarousel" class="carousel slide">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner text-center">
                 <div class="carousel-item active">
@@ -70,14 +69,6 @@
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
             </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> -->
         </div>
     </section>
 
@@ -123,7 +114,7 @@
         </div>
     </section>
 
-    <section class="container-xl bestWork-container">
+    <section class="container-xl bestWork-container text-center">
         <h2 class="text-center">our best work</h2>
 
         <div class="grid-container">
@@ -145,53 +136,240 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-6.jpg" alt="">
                 </div>
-            </div>
+        </div>
+        <button type="button" class="btn cta rounded-pill my-5 ">learn more</button>
     </section>
 
-    <section class="container-fluid bg-theme">
-        <h2 class="text-center">best team</h2>
-        <div class="container-xl">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <!-- BUG INdicators -->
+    <section class="container-fluid bg-theme text-center">
+        <h2>best team</h2>
+            <div id="bestTeamCarousel" class="carousel slide container-xl">
                 <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                            <div class="row">
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
+                                    <h3 class="fw-bold">paul hall</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">art director</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
+                                    <h3 class="fw-bold">joshua spencer</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">founder</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
+                                    <h3 class="fw-bold">diane lewis</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">artist, designer</p>
+                                </div>
+                            </div> 
                     </div>
                     <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                        <div class="row">
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
+                                    <h3 class="fw-bold">paul hall</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">art director</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
+                                    <h3 class="fw-bold">joshua spencer</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">founder</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
+                                    <h3 class="fw-bold">diane lewis</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">artist, designer</p>
+                                </div>
+                        </div> 
                     </div>
                     <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                        <div class="row">
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
+                                    <h3 class="fw-bold">paul hall</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">art director</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
+                                    <h3 class="fw-bold">joshua spencer</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">founder</p>
+                                </div>
+                                <div class="col">
+                                    <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
+                                    <h3 class="fw-bold">diane lewis</h3>
+                                    <hr class="separator">
+                                    <p class="fw-bold">artist, designer</p>
+                                </div>
+                        </div> 
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#bestTeamCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#bestTeamCarousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
-        </div>
-        
+            </div> 
     </section>
 
     <section class="container-xl">
         <h2 class="text-center">clients say's</h2>
+        <div id="clientsSaysCarousel" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col">
+                            <h3>frank sims</h3>
+                            <hr class="separator">
+                            <p class="fw-bold">photographer</p>
+                        </div>
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img\frank-sims-1.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-2.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-3.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <h3>frank sims</h3>
+                                <hr class="separator">
+                                <p class="fw-bold">photographer</p>
+                            </div>
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="img\frank-sims-1.jpg" alt="">
+                            </div>
+                            <div class="col-3">
+                                <img src="img\frank-sims-2.jpg" alt="">
+                            </div>
+                            <div class="col-3">
+                                <img src="img\frank-sims-3.jpg" alt="">
+                            </div>
+                            <div class="col-3">
+                                <img src="img\frank-sims-4.jpg" alt="">
+                            </div>
+                        </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col">
+                            <h3>frank sims</h3>
+                            <hr class="separator">
+                            <p class="fw-bold">photographer</p>
+                        </div>
+                        <div class="col">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum delectus facilis a distinctio, sit rerum. Molestias fugiat aperiam molestiae!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="img\frank-sims-1.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-2.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-3.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img src="img\frank-sims-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="container-fluid bg-black text-white">
-        <h2 class="text-center">get in touch</h2>
+    <section class="container-fluid bg-black">
+        <h2 class="text-center text-white">get in touch</h2>
+        <div class="container-xl">
+            <div class="row">
+                <div class="col text-white">
+                    <div class="d-flex align-items-start">
+                        <img src="img/Pin.png" alt="">
+                        <p>23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</p>
+                    </div>
+                    <div class="d-flex align-items-start">
+                        <img src="img/iPhone.png" alt="">
+                        <p>+1-670-567-5590</p>
+                    </div>
+                    <div class="d-flex align-items-start">
+                        <img src="img/Envelope.png" alt="">
+                        <p>hello@clemocreative.com</p>
+                    </div>
+                    <div class="d-flex">
+                        <img src="img/facebook.png" alt="">
+                        <img src="img/twitter.png" alt="">
+                        <img src="img/google-plus.png" alt="">
+                        <img src="img/pinterest.png" alt="">
+                        <img src="img/Instagram.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nameInput" class="form-label">name</label>
+                            <input type="text" class="form-control bg-transparent input-style" id="nameInput" aria-describedby="emailHelp" placeholder="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label">email</label>
+                            <input type="email" class="form-control bg-transparent" id="emailInput" aria-describedby="emailHelp" placeholder="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="messageInput" class="form-label">your message</label>
+                            <input type="password" class="form-control bg-transparent" id="messageInput" placeholder="your message">
+                        </div>
+                        <button type="submit" class="btn rounded-pill cta-white">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer class="text-center">
         <p class="fw-bold">© 2016 clemo.</p>
         <p>all rights reserved</p>
     </footer>
+
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
