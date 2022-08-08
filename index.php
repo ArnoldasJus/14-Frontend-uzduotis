@@ -13,7 +13,7 @@
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg py-5">
             <div class="container-xl">
                 <a class="navbar-brand fw-bold logo" href="#">clemo.</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +22,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link fw-light" href="#">about us</a>
+                        <a class="nav-link fw-light menu-theme" href="#">about us</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link fw-light" href="#">services</a>
+                        <a class="nav-link fw-light menu-theme" href="services.php">services</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link fw-light" href="#">works</a>
+                        <a class="nav-link fw-light menu-theme" href="#">works</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link fw-light" href="#">blog</a>
+                        <a class="nav-link fw-light menu-theme" href="#">blog</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link fw-light" href="#">contact</a>
+                        <a class="nav-link fw-light menu-theme" href="#">contact</a>
                         </li>
                     </ul>
                 </div>
@@ -74,10 +74,10 @@
     <section class="container-xl">
         <h2 class="text-center py-5">what we do?</h2>
         <div class="row gx-5 mb-5">
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
@@ -87,23 +87,23 @@
         </div>
 
         <div class="row gx-5 mb-5">
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>
 
         <div class="row gx-5">
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6">
                 <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
@@ -346,15 +346,15 @@
                     <form>
                         <div class="mb-3">
                             <!-- <label for="nameInput" class="form-label">name</label> -->
-                            <input type="text" class="form-control bg-transparent input-style rounded-0" id="nameInput" aria-describedby="emailHelp" placeholder="name">
+                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="nameInput" aria-describedby="emailHelp" placeholder="name">
                         </div>
                         <div class="mb-3">
                             <!-- <label for="emailInput" class="form-label">email</label> -->
-                            <input type="email" class="form-control bg-transparent input-style rounded-0" id="emailInput" aria-describedby="emailHelp" placeholder="email">
+                            <input type="email" class="form-control bg-transparent input-style rounded-0 text-white" id="emailInput" aria-describedby="emailHelp" placeholder="email">
                         </div>
                         <div class="mb-3">
                             <!-- <label for="messageInput" class="form-label">your message</label> -->
-                            <input type="password" class="form-control bg-transparent input-style rounded-0" id="messageInput" placeholder="your message">
+                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="messageInput" placeholder="your message">
                         </div>
                         <button type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
                     </form>

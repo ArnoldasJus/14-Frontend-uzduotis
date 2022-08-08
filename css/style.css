@@ -1,5 +1,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    /* margin:0;
+padding:0;
+overflow-x:hidden;
+width: 100%; */
 }
 
 .separator {
@@ -16,12 +20,6 @@ h1 {
     font-size: 37px;
 }
 
-.navbar {
-    line-height: 32px;
-    min-height: 156px; /* <-- atrodo nelogiškos proprcijos */
-    /* min-height: 100px; <- rekomenduojamas dydis */
-}
-
 .logo {
     line-height: 32px;
     font-size: 24px;
@@ -34,7 +32,7 @@ h1 {
 }
 
 .nav-item:last-child .nav-link {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .bg-theme {
@@ -86,6 +84,11 @@ h1 {
     padding: 16px 30px;
 }
 
+.cta:hover {
+   background-color: #ffcb93;
+   border-color: #ffcb93;
+}
+
 .cta-light {
     border: 1px solid #d8d8d8;
     font-size: 14px;
@@ -97,6 +100,11 @@ h1 {
     color: #000000;
     font-size: 14px;
     padding: 16px 30px;
+}
+
+.cta-white:hover {
+    background-color: #ffcb93;
+    border-color: #ffcb93;
 }
 
 .slider {
@@ -154,4 +162,38 @@ h1 {
 .input-style {
     border: none;
     border-bottom: 1px solid #333333;
+}
+
+.link-theme:hover {
+    color: #ffcb93;
+}
+
+.menu-theme {
+    display: inline-block;
+    position: relative;
+    padding: 8px 0px 8px 0px !important;
+    margin-right: 30px;
+}
+
+.menu-theme:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+    
+}
+
+.menu-theme:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+img {
+    max-width: 100%;
 }
