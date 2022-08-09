@@ -74,10 +74,10 @@
     <section class="container-xl">
         <h2 class="text-center py-5">what we do?</h2>
         <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-end">
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
@@ -87,23 +87,23 @@
         </div>
 
         <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start">
                 <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start  mt-3 mt-md-0">
                 <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>
 
         <div class="row gx-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-end">
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
@@ -150,19 +150,19 @@
                 <div class="carousel-inner py-5">
                     <div class="carousel-item active">
                             <div class="row">
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
                                     <hr class="separator mx-auto">
@@ -172,41 +172,41 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">artist, designer</p>
                                 </div>
-                            </div>  
+                        </div>  
                     </div>
                     <div class="carousel-item">
                     <div class="row">
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-1.jpg" alt="">
                                     <h3 class="fw-bold">paul hall</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">art director</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-sm-6 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-2.jpg" alt="">
                                     <h3 class="fw-bold">joshua spencer</h3>
                                     <hr class="separator mx-auto">
                                     <p class="fw-bold">founder</p>
                                 </div>
-                                <div class="col">
+                                <div class="col-12 col-lg-4">
                                     <img class="rounded-circle" src="img\best-team-3.jpg" alt="">
                                     <h3 class="fw-bold">diane lewis</h3>
                                     <hr class="separator mx-auto">
@@ -236,10 +236,11 @@
             </div>
             <div class="carousel-inner py-5">
                 <div class="carousel-item active">
-                    <div class="row mb-5">
-                        <div class="col">
+                    <div class="row gx-5 mb-5">
+                        <div class="col text-end">
                             <h3 class="fs-1 fw-bold">frank sims</h3>
                             <hr class="separator">
+                            <span class="separator"></span>
                             <p class="fw-bold">photographer</p>
                         </div>
                         <div class="col">
@@ -262,8 +263,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                        <div class="row mb-5">
-                            <div class="col">
+                        <div class="row gx-5 mb-5">
+                            <div class="col text-end">
                                 <h3 class="fs-1 fw-bold">frank sims</h3>
                                 <hr class="separator">
                                 <p class="fw-bold">photographer</p>
@@ -288,8 +289,8 @@
                         </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="row  mb-5">
-                        <div class="col">
+                    <div class="row gx-5 mb-5">
+                        <div class="col text-end">
                             <h3 class="fs-1 fw-bold">frank sims</h3>
                             <hr class="separator">
                             <p class="fw-bold">photographer</p>

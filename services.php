@@ -44,10 +44,10 @@
     <section id="#whatWeDo" class="container-xl py-5">
         <h1 class="text-center py-5">what we do?</h2>
         <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-end">
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
@@ -57,23 +57,23 @@
         </div>
 
         <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start">
                 <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start  mt-3 mt-md-0">
                 <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>
 
         <div class="row gx-5">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-end">
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
                 <hr class="separator">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
