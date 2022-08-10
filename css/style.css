@@ -18,10 +18,30 @@ width: 100%;
     margin-bottom: 25px;
 }
 
-.separator {
+.separator-right {
     width: 55px;
     height: 2px;
+    background-color: #000000;
+    margin-left: calc(100% - 55px);
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
+.wwd-separator {
+    width: 55px;
+    height: 2px;
+    background-color: #000000;
+    /* margin-left: calc(100% - 55px); */
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .wwd-separator {
+       margin-right: calc(100% - 55px);
+    }
+  }
 
 h1 {
     font-size: 37px;
