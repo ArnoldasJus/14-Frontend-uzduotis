@@ -321,10 +321,10 @@
         <h2 class="text-center text-white py-5">get in touch</h2>
         <div class="container-xl">
             <div class="row">
-                <div class="col text-white">
+                <div class="col-12 col-md-6 mb-5 md-md-0 text-white">
                     <div class="d-flex gap-3 align-items-start">
                         <img src="img/Pin.png" alt="">
-                        <p class="lh-1">23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</p>
+                        <p class="lh-1 w-75">23 Mulholland Drive, Suite 721. Los Angeles 10010 100 S. Main Street. Los Angeles 90012</p>
                     </div>
                     <div class="d-flex gap-3 align-items-start">
                         <img src="img/iPhone.png" alt="">
@@ -342,7 +342,7 @@
                         <img src="img/Instagram.png" alt="">
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6">
                     <form>
                         <div class="mb-3">
                             <!-- <label for="nameInput" class="form-label">name</label> -->
