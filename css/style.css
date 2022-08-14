@@ -71,9 +71,73 @@ h1 {
 .carousel-indicators [data-bs-target] {
     width: 13px;
     height: 13px;
+    border: 1px solid #000000;
+    border-radius: 100%;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.carousel-indicators .active {
+    background-color: #000000;
+    opacity: 1;
+}
+
+.side {
+    top: 40%;
+    right: 29px;
+    bottom: 40%;
+    margin: 0;
+    display: inline-grid;
+    justify-content: end;
+}
+
+/* .vertical .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel.vertical .carousel-item {
+    -webkit-transition: 0.6s ease-in-out top;
+       -moz-transition: 0.6s ease-in-out top;
+        -ms-transition: 0.6s ease-in-out top;
+         -o-transition: 0.6s ease-in-out top;
+            transition: 0.6s ease-in-out top;
+  }
+  
+  .carousel.vertical .active {
+    top: 0;
+  }
+  
+  .carousel.vertical .next {
+    top: 100%;
+  }
+  
+  .carousel.vertical .prev {
+    top: -100%;
+  }
+  
+  .carousel.vertical .next.left,
+  .carousel.vertical .prev.right {
+    top: 0;
+  }
+  
+  .carousel.vertical .active.left {
+    top: -100%;
+  }
+  
+  .carousel.vertical .active.right {
+    top: 100%;
+  }
+  
+  .carousel.vertical .carousel-item {
+      left: 0;
+  }​ */
+
+/* .carousel-indicators {
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
     background-color: #000000;
-}
+} */
 
 .carousel-control-prev-icon {
     background-image: url(../img/arrow-left.png);

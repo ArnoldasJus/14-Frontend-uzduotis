@@ -42,8 +42,8 @@
     </nav>
     
     <section class="container-xl">
-        <div id="featuredSectionCarousel" class="carousel slide container-xl bg-theme featured d-flex align-items-center">
-            <div class="carousel-indicators">
+        <div id="featuredSectionCarousel" class="carousel slide container-xl bg-theme featured d-flex align-items-center vertical">
+            <div class="carousel-indicators side gap-3">
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -142,7 +142,7 @@
     <section class="container-fluid bg-theme text-center">
         <h2 class="py-5">best team</h2>
             <div id="bestTeamCarousel" class="carousel slide container-xl">
-                <div class="carousel-indicators">
+                <div class="carousel-indicators gap-3">
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -229,7 +229,7 @@
     <section class="container-xl">
         <h2 class="text-center py-5">clients say's</h2>
         <div id="clientsSaysCarousel" class="carousel slide">
-            <div class="carousel-indicators">
+            <div class="carousel-indicators gap-3">
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#clientsSaysCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
