@@ -48,7 +48,9 @@
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
             <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
-                <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -58,7 +60,9 @@
 
         <div class="row gx-5 mb-5">
             <div class="col-12 col-md-6 text-center text-md-start">
-                <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -74,7 +78,9 @@
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
             <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
-                <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>

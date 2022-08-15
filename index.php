@@ -52,19 +52,19 @@
                 <div class="carousel-item active">
                     <h1 class="fw-bold">we are clemo.</h1>
                         <hr class="separator mx-auto">
-                    <p class="fw-light">professionals<br>in the creative industries</p>
+                    <p class="fw-light text-black">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
                 <h1 class="fw-bold">we are clemo.</h1>
                     <hr class="separator mx-auto">
-                    <p class="fw-light">professionals<br>in the creative industries</p>
+                    <p class="fw-light text-black">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
                 <div class="carousel-item">
                 <h1 class="fw-bold">we are clemo.</h1>
                     <hr class="separator mx-auto">
-                    <p class="fw-light">professionals<br>in the creative industries</p>
+                    <p class="fw-light text-black">professionals<br>in the creative industries</p>
                     <button type="button" class="btn cta rounded-pill my-5">get in touch</button>
                 </div>
             </div>
@@ -78,7 +78,9 @@
                 <img src="img\what-we-do-1.jpg" alt="">
             </div>
             <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
-                <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>creative<br><span class="fs-1 fw-bold">kitchen</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -88,7 +90,9 @@
 
         <div class="row gx-5 mb-5">
             <div class="col-12 col-md-6 text-center text-md-start">
-                <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -104,7 +108,9 @@
                 <img src="img\what-we-do-3.jpg" alt="">
             </div>
             <div class="col-12 col-md-6 text-center text-md-start mt-3 mt-md-0">
-                <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
+                <a href="#" class="link-theme">
+                    <h3>print<br><span class="fs-1 fw-bold">design</span></h3>
+                </a>
                 <div class="wwd-separator"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti tempore est reprehenderit incidunt, tenetur alias voluptatum facilis vitae iure.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
@@ -335,12 +341,23 @@
                         <p class="lh-1">hello@clemocreative.com</p>
                     </div>
                     <div class="d-flex gap-3 mt-3">
-                        <img src="img/facebook.png" alt="">
-                        <img src="img/twitter.png" alt="">
-                        <img src="img/google-plus.png" alt="">
-                        <img src="img/pinterest.png" alt="">
-                        <img src="img/Instagram.png" alt="">
+                        <a href="#" class="d-flex justify-content-center align-items-center social-bg">
+                            <img src="img/facebook-icon.png" alt="">
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center social-bg">
+                            <img src="img/twitter-icon.png" alt="">
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center social-bg">
+                            <img src="img/google-plus-icon.png" alt="">
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center social-bg">
+                            <img src="img/pinterest-icon.png" alt="">
+                        </a>
+                        <a href="#" class="d-flex justify-content-center align-items-center social-bg">
+                            <img src="img/Instagram-icon.png" alt="">
+                        </a>
                     </div>
+
                 </div>
                 <div class="col-12 col-md-6">
                     <form>
