@@ -42,7 +42,7 @@
     </nav>
     
     <section class="container-xl">
-        <div id="featuredSectionCarousel" class="carousel slide container-xl bg-theme featured d-flex align-items-center vertical">
+        <div id="featuredSectionCarousel" class="carousel slide container-xl bg-theme featured d-flex align-items-center">
             <div class="carousel-indicators side gap-3">
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#featuredSectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -142,6 +142,60 @@
                     <img src="img/our-best-work-6.jpg" alt="">
                 </div>
         </div>
+
+        <hr>
+
+        <div class="grid-container">
+                <div class="grid-item">
+                    <img src="img/our-best-work-1.jpg" alt="">
+                    <div class="image-text square-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-2.jpg" alt="">
+                    <div class="image-text rect-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-3.jpg" alt="">
+                    <div class="image-text rect-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-4.jpg" alt="">
+                    <div class="image-text square-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-5.jpg" alt="">
+                    <div class="image-text square-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <img src="img/our-best-work-6.jpg" alt="">
+                    <div class="image-text rect-img">
+                        <h3>golfino<br>awards</h3>
+                        <hr class="separator mx-auto">
+                        <p>print design</p>
+                    </div>
+                </div>
+        </div>
+
         <button type="button" class="btn cta rounded-pill my-5 ">learn more</button>
     </section>
 
