@@ -42,7 +42,7 @@
     </nav>
     
     <section id="#whatWeDo" class="container-xl py-5">
-        <h1 class="text-center py-5">what we do?</h2>
+        <h2 class="text-center py-5">what we do?</h2>
         <div class="row gx-5 mb-5">
             <div class="col-12 col-md-6 text-center text-md-end">
                 <img src="img\what-we-do-1.jpg" alt="">

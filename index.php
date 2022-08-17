@@ -125,31 +125,8 @@
         <div class="grid-container">
                 <div class="grid-item">
                     <img src="img/our-best-work-1.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="img/our-best-work-2.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="img/our-best-work-3.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="img/our-best-work-4.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="img/our-best-work-5.jpg" alt="">
-                </div>
-                <div class="grid-item">
-                    <img src="img/our-best-work-6.jpg" alt="">
-                </div>
-        </div>
-
-        <hr>
-
-        <div class="grid-container">
-                <div class="grid-item">
-                    <img src="img/our-best-work-1.jpg" alt="">
                     <div class="image-text square-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -157,7 +134,7 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-2.jpg" alt="">
                     <div class="image-text rect-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -165,7 +142,7 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-3.jpg" alt="">
                     <div class="image-text rect-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -173,7 +150,7 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-4.jpg" alt="">
                     <div class="image-text square-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -181,7 +158,7 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-5.jpg" alt="">
                     <div class="image-text square-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -189,7 +166,7 @@
                 <div class="grid-item">
                     <img src="img/our-best-work-6.jpg" alt="">
                     <div class="image-text rect-img">
-                        <h3>golfino<br>awards</h3>
+                        <h3 class="fs-1 fw-bold">golfino<br>awards</h3>
                         <hr class="separator mx-auto">
                         <p>print design</p>
                     </div>
@@ -199,15 +176,15 @@
         <button type="button" class="btn cta rounded-pill my-5 ">learn more</button>
     </section>
 
-    <section class="container-fluid bg-theme text-center">
+    <section class="container-fluid bg-theme text-center pb-5">
         <h2 class="py-5">best team</h2>
-            <div id="bestTeamCarousel" class="carousel slide container-xl">
+            <div id="bestTeamCarousel" class="carousel slide container">
                 <div class="carousel-indicators gap-3">
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#bestTeamCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                <div class="carousel-inner py-5">
+                <div class="carousel-inner container-xl py-5">
                     <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-12 col-sm-6 col-lg-4">
@@ -286,7 +263,7 @@
             </div> 
     </section>
 
-    <section class="container-xl">
+    <section class="container-xl pb-5">
         <h2 class="text-center py-5">clients say's</h2>
         <div id="clientsSaysCarousel" class="carousel slide">
             <div class="carousel-indicators gap-3">

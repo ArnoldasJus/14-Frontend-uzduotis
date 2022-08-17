@@ -4,6 +4,10 @@ body {
         width: 100%;
 }
 
+h2 {
+    font-size: 45px;
+}
+
 h1, h2, h3 {
     color: #000000;
 }
@@ -11,6 +15,7 @@ h1, h2, h3 {
 .separator {
     width: 55px;
     height: 2px;
+    background-color: #000000;
     color: #000000;
     opacity: 1;
     /* margin: auto; */
@@ -31,7 +36,6 @@ h1, h2, h3 {
     width: 55px;
     height: 2px;
     background-color: #000000;
-    /* margin-left: calc(100% - 55px); */
     margin: auto;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -243,6 +247,39 @@ img {
 
 .bestWork-container .grid-container .grid-item:hover .image-text {
     display: block;
+    padding: 20%;
+}
+
+@media only screen and (max-width: 965px) {
+    .bestWork-container .grid-container .grid-item:hover .image-text {
+       padding: 10%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .bestWork-container .grid-container .grid-item:hover .image-text .separator {
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .bestWork-container .grid-container .grid-item:hover .image-text .separator {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .bestWork-container .grid-container .grid-item:hover .image-text .fs-1 {
+        font-size: 16px !important;
+    }
+
+    .bestWork-container .grid-container .grid-item:hover .image-text p {
+        font-size: 14px !important;
+    }
+
+    .bestWork-container .grid-container .grid-item:hover .image-text {
+        padding: 5%;
+    }
 }
 
 .input-style {
