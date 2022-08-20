@@ -189,12 +189,6 @@ img {
     position: relative;
 }
 
-.bestWork-container .grid-container .grid-item .image-text {
-    position: absolute;
-    background-color: #ffe1bd;
-    display: none;
-}
-
 .bestWork-container .grid-container .grid-item .image-text.square-img {
     top: 7%;
     bottom: 7%;
@@ -244,8 +238,14 @@ img {
     object-fit: cover;
 }
 
+.bestWork-container .grid-container .grid-item .image-text {
+    position: absolute;
+    background-color: #ffe1bd;
+    visibility: hidden;
+}
+
 .bestWork-container .grid-container .grid-item:hover .image-text {
-    display: block;
+    visibility: visible;
     padding: 20%;
 }
 
@@ -304,4 +304,8 @@ img {
 
 .social-bg:hover {
     background-color: #ffe1bd;
+}
+
+.hidding-form {
+    display: none;
 }

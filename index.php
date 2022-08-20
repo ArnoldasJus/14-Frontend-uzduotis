@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend užduotis</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap" rel="stylesheet">
@@ -391,21 +392,40 @@
 
                 </div>
                 <div class="col-12 col-md-6">
-                    <form>
+                    <!-- <form id="contact-form" action="index.php" method="post">
                         <div class="mb-3">
-                            <!-- <label for="nameInput" class="form-label">name</label> -->
+                           
                             <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="nameInput" aria-describedby="emailHelp" placeholder="name">
                         </div>
                         <div class="mb-3">
-                            <!-- <label for="emailInput" class="form-label">email</label> -->
+                           
                             <input type="email" class="form-control bg-transparent input-style rounded-0 text-white" id="emailInput" aria-describedby="emailHelp" placeholder="email">
                         </div>
                         <div class="mb-3">
+                            
+                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="messageInput" placeholder="your message">
+                        </div>
+                        <button id="form-submit" type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
+                    </form> -->
+
+                    <hr>
+
+                    <form method="POST" id="contact-form" action="index.php">
+                        <div class="form-group mb-3">
+                            <!-- <label for="nameInput" class="form-label">name</label> -->
+                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="nameInput" aria-describedby="emailHelp" placeholder="name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <!-- <label for="emailInput" class="form-label">email</label> -->
+                            <input type="email" class="form-control bg-transparent input-style rounded-0 text-white" id="emailInput" aria-describedby="emailHelp" placeholder="email">
+                        </div>
+                        <div class="form-group mb-3">
                             <!-- <label for="messageInput" class="form-label">your message</label> -->
                             <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="messageInput" placeholder="your message">
                         </div>
-                        <button type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
+                        <button id="form-submit" type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
                     </form>
+
                 </div>
             </div>
         </div>
@@ -417,5 +437,6 @@
     </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
