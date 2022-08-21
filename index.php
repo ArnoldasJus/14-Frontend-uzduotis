@@ -406,7 +406,7 @@
                     </form>
 
                     <div id="form-message" class="message text-white">
-                        <img class="mx-3 mb-3" src="img/check.png" alt="">
+                        <img class="mx-3 mb-4" src="img/check.png" alt="">
                         <p class="mb-1">Thank you!</p>
                         <p class="mb-1">Your message has been sent!</p>
                         <button id="new-form" class="btn rounded-pill cta-white mt-5">new message</button>
