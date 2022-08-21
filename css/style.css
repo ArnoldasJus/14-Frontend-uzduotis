@@ -167,6 +167,7 @@ img {
 .cta-white:hover {
     background-color: #ffcb93;
     border-color: #ffcb93;
+    color: #000000;
 }
 
 .slider {
@@ -306,6 +307,23 @@ img {
     background-color: #ffe1bd;
 }
 
+.message p {
+    font-size: 21px;
+}
+
+.message img {
+    max-width: 100%;
+    height: auto;
+}
+
 .hidding-form {
     display: none;
+}
+
+.message {
+    display: none;
+}
+
+.showing-message {
+    display: block;
 }
