@@ -2,11 +2,12 @@
 
 document.getElementById("form-submit").addEventListener("click", function(event) {
     event.preventDefault();
-    let form = document.getElementById("contact-form");
-    let message = document.getElementById("form-message");
-    form.classList.add("hidding-form");
-    message.classList.add("showing-message");
-    
-    // var message = document.getElementById("form-message");
-    // message.classList.add("showing-message");
+    document.getElementById("contact-form").classList.add("hidding-form");
+    document.getElementById("form-message").classList.add("showing-message");
+});
+
+document.getElementById("new-form").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("form-message").classList.remove("showing-message");
+    document.getElementById("contact-form").classList.remove("hidding-form");
 });

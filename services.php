@@ -42,7 +42,7 @@
             </div>
     </nav>
     
-    <section id="#whatWeDo" class="container-xl py-5">
+    <section id="whatWeDo" class="container-xl py-5">
         <h2 class="text-center py-5">what we do?</h2>
         <div class="row gx-5 mb-5">
             <div class="col-12 col-md-6 text-center text-md-end">
@@ -59,8 +59,8 @@
             </div>
         </div>
 
-        <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6 text-center text-md-start">
+        <div class="row mobile-order gx-5 mb-5">
+            <div class="col-12 mobile-second col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <a href="#" class="link-theme">
                     <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 </a>
@@ -69,7 +69,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
-            <div class="col-12 col-md-6 text-center text-md-start  mt-3 mt-md-0">
+            <div class="col-12 col-md-6 text-center text-md-start">
                 <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>

@@ -89,8 +89,8 @@
             </div>
         </div>
 
-        <div class="row gx-5 mb-5">
-            <div class="col-12 col-md-6 text-center text-md-start">
+        <div class="row mobile-order gx-5 mb-5">
+            <div class="col-12 mobile-second col-md-6 text-center text-md-start mt-3 mt-md-0">
                 <a href="#" class="link-theme">
                     <h3>art<br><span class="fs-1 fw-bold">installation</span></h3>
                 </a>
@@ -99,7 +99,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum a soluta iusto alias perspiciatis aut.</p>
                 <button type="button" class="btn cta-light rounded-pill">learn more</button>
             </div>
-            <div class="col-12 col-md-6 text-center text-md-start  mt-3 mt-md-0">
+            <div class="col-12 col-md-6 text-center text-md-start">
                 <img src="img\what-we-do-2.jpg" alt="">
             </div>
         </div>
@@ -392,32 +392,14 @@
 
                 </div>
                 <div class="col-12 col-md-6">
-                    <!-- <form id="contact-form" action="index.php" method="post">
-                        <div class="mb-3">
-                           
-                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="nameInput" aria-describedby="emailHelp" placeholder="name">
-                        </div>
-                        <div class="mb-3">
-                           
-                            <input type="email" class="form-control bg-transparent input-style rounded-0 text-white" id="emailInput" aria-describedby="emailHelp" placeholder="email">
-                        </div>
-                        <div class="mb-3">
-                            
-                            <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="messageInput" placeholder="your message">
-                        </div>
-                        <button id="form-submit" type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
-                    </form> -->
                     <form method="POST" id="contact-form" action="index.php">
                         <div class="form-group mb-3">
-                            <!-- <label for="nameInput" class="form-label">name</label> -->
                             <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="nameInput" aria-describedby="emailHelp" placeholder="name">
                         </div>
                         <div class="form-group mb-3">
-                            <!-- <label for="emailInput" class="form-label">email</label> -->
                             <input type="email" class="form-control bg-transparent input-style rounded-0 text-white" id="emailInput" aria-describedby="emailHelp" placeholder="email">
                         </div>
                         <div class="form-group mb-3">
-                            <!-- <label for="messageInput" class="form-label">your message</label> -->
                             <input type="text" class="form-control bg-transparent input-style rounded-0 text-white" id="messageInput" placeholder="your message">
                         </div>
                         <button id="form-submit" type="submit" class="btn rounded-pill cta-white mt-3">submit</button>
@@ -427,7 +409,7 @@
                         <img class="mx-3 mb-3" src="img/check.png" alt="">
                         <p class="mb-1">Thank you!</p>
                         <p class="mb-1">Your message has been sent!</p>
-                        <button id="new-form" class="btn rounded-pill cta-white mt-3">new message</button>
+                        <button id="new-form" class="btn rounded-pill cta-white mt-5">new message</button>
                     </div>
                 </div>
             </div>
